@@ -1,0 +1,289 @@
+/* Styles for Futbol */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background-attachment: fixed;
+	background-color: #47B854;
+	background-image: url("../images/field480x600.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+	margin: 5px 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: .7em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: .8em;
+	font-weight: 600;
+}
+
+
+header {
+	background-color: #333;
+	margin: 0 0 10px;
+	opacity: 0.8;
+    padding: 1px 0 1px 10px;
+    position: fixed;
+	width: 100%;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 748px;
+	padding: 10px;
+}
+
+.players-list li {
+	background-color: #555;
+    background-image: url("../images/players.jpg");
+    background-repeat: no-repeat;
+    border: 1px solid #666;
+    border-radius: 20%;
+    box-shadow: 2px 2px 10px #000;
+    font-size: .7em;
+    font-style: italic;
+    height: 60px;
+    line-height: 1.1em;
+    padding-left: 0;
+    padding-top: 60px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+
+.one {
+	left: 40%;
+    top: 11%;
+}
+
+.two {
+	left: 40%;
+    top: 32%;
+}
+
+.three {
+	left: 8%;
+    top: 35%;
+}
+
+.four {
+	left: 70%;
+    top: 35%
+}
+
+.five {
+	left: 42%;
+    top: 55%;
+}
+
+.six {
+	left: 10%;
+    top: 58%;
+}
+
+.seven {
+	left: 70%;
+    top: 60%;
+}
+
+.no-foto {
+	background-position: 0 0;
+}
+
+.sanna {
+	background-position: 0 -60px;
+}
+
+.andre {
+	background-position: 0 -120px;
+}
+
+.figini {
+	background-position: 0 -180px;
+}
+
+.lucky {
+	background-position: 0 -240px;
+}
+
+.juanma {
+	background-position: 0 -300px;
+}
+
+.gontero {
+	background-position: 0 -360px;
+}
+
+.mauri {
+	background-position: 0 -420px;
+}
+
+.martin {
+	background-position: 0 -480px;
+}
+
+.fredy {
+	background-position: 0 -540px;
+}
+
+.fabri {
+	background-position: 0 -600px;
+}
+
+.eze {
+	background-position: 0 -660px;
+}
+
+.illanes {
+	background-position: 0 -720px;
+}
+
+.joaquin {
+	background-position: 0 -780px;
+}
+
+.rodri {
+	background-position: 0 -840px;
+}
+
+
+@media screen and (min-width: 480px) {
+
+	body {
+		background-image: url("../images/field.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;*/
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.players-list li {
+	    background-image: url("../images/players-768.jpg");
+	    font-size: .9em;
+	    height: 80px;
+	    line-height: 1.1em;
+	    padding-top: 70px;
+	    width: 80px;
+	}
+
+	.one {
+		left: 50%;
+	    top: 11%;
+	}
+
+	.two {
+		left: 50%;
+	    top: 32%;
+	}
+
+	.three {
+		left: 20%;
+	    top: 30%;
+	}
+
+	.four {
+		left: 80%;
+	    top: 30%
+	}
+
+	.five {
+		left: 50%;
+	    top: 55%;
+	}
+
+	.six {
+		left: 25%;
+	    top: 58%;
+	}
+
+	.seven {
+		left: 70%;
+	    top: 60%;
+	}
+
+	.sanna {
+		background-position: 0 -80px;
+	}
+
+	.andre {
+		background-position: 0 -160px;
+	}
+
+	.figini {
+		background-position: 0 -240px;
+	}
+
+	.lucky {
+		background-position: 0 -320px;
+	}
+
+	.juanma {
+		background-position: 0 -400px;
+	}
+
+	.gontero {
+		background-position: 0 -480px;
+	}
+
+	.mauri {
+		background-position: 0 -560px;
+	}
+
+	.martin {
+		background-position: 0 -640px;
+	}
+
+	.fredy {
+		background-position: 0 -720px;
+	}
+
+	.fabri {
+		background-position: 0 -800px;
+	}
+
+	.eze {
+		background-position: 0 -880px;
+	}
+
+	.illanes {
+		background-position: 0 -960px;
+	}
+
+	.joaquin {
+		background-position: 0 -1040px;
+	}
+
+	.rodri {
+		background-position: 0 -1120px;
+	}
+}
