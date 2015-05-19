@@ -89,13 +89,13 @@ header {
 }
 
 .three {
-	left: 8%;
-    top: 35%;
+	left: 70%;
+    top: 35%
 }
 
 .four {
-	left: 70%;
-    top: 35%
+	left: 8%;
+    top: 35%;
 }
 
 .five {
@@ -207,13 +207,13 @@ header {
 	}
 
 	.three {
-		left: 20%;
-	    top: 30%;
+		left: 80%;
+	    top: 30%
 	}
 
 	.four {
-		left: 80%;
-	    top: 30%
+		left: 20%;
+	    top: 30%;
 	}
 
 	.five {
